@@ -1,0 +1,252 @@
+/* ================== START CSS FILE FOR HOME PAGE ================== */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&family=Comfortaa:wght@300;400;500;600;700&family=Encode+Sans:wght@700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Tajawal:wght@300;400;500;800&display=swap');
+* {
+  font-family: 'Cairo', sans-serif !important;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFFFFF;
+}
+.navbar{
+  height: 72px;
+  box-shadow: 0px 1px 0px #E5E9F2;
+}
+.nav-logoo{
+  margin-top: -14px;
+}
+.nav-link{
+  color: #212529;
+  font-size: 16px;
+}
+.navbar-nav{
+  margin-top: 20px !important;
+}
+.dropdown-item{
+  color: #212529;
+}
+.search-bar{
+  width: 700px;
+  height: 56px;
+  border: none; 
+  outline: none;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+  border-radius: 50px;
+}
+.search-bar::placeholder{
+  color: #A6A6A6;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* NAVBAR FOR MOBILE APP */
+.nav-mobile{
+  display: none;
+}
+.nav-mobile a{
+  margin-left: 15px;
+}
+/* NAVBAR FOR MOBILE APP */
+
+.sec-navbar{
+  height: 66px !important;
+  background-color: #B92728 !important;
+  box-shadow: 0px 0px 0px;
+}
+.sec-navbar .nav-item .nav-link{
+  color: #FFFFFF;
+}
+.sec-navbar .navbar-nav{
+  margin-top: 0px !important;
+}
+.sub-menu-1{
+  display: none;
+}
+.main-dropdown-1:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  width: 200px;
+  background-color: #F5F5F5;
+  margin-top: 3px;
+  margin-left: -15px;
+}
+.main-dropdown-1:hover .sub-menu-1 ul{
+  display: block;
+  list-style: none;
+}
+.main-dropdown-1:hover .sub-menu-1 ul li{
+  text-align: right;
+  padding: 10px;
+  border-radius: 0px;
+  background: transparent;
+}
+.main-dropdown-1:hover .sub-menu-1 ul li a{
+  color: #212529;
+}
+.sub-menu-2{
+  display: none;
+}
+.hover-me:hover .sub-menu-2{
+  position: absolute;
+  display: block;
+  top: 0px;
+  width: 200px;
+  margin-right: 150px;
+  background-color: #F5F5F5;
+  border-right: 1px double #E5E9F2;
+}
+.hover-me:hover .sub-menu-2 ul{
+  display: block;
+}
+.hover-me:hover .sub-menu-2 ul li{
+  text-align: right;
+  padding: 10px;
+  border-radius: 0px;
+  background: transparent;
+}
+.hover-me:hover .sub-menu-2 ul li a{
+  color: #212529;
+}
+.sub-menu-3{
+  display: none;
+}
+.hover-me-2:hover .sub-menu-3{
+  position: absolute;
+  display: block;
+  top: 0px;
+  width: 200px;
+  margin-right: 149px;
+  background-color: #F5F5F5;
+  border-right: 1px double #E5E9F2;
+}
+.hover-me-2:hover .sub-menu-3 ul{
+  display: block;
+}
+.hover-me-2:hover .sub-menu-3 ul li{
+  text-align: right;
+  padding: 10px;
+  border-radius: 0px;
+  background: transparent;
+}
+.hover-me-2:hover .sub-menu-3 ul li a{
+  color: #212529;
+}
+.navbar-icons-left li{
+  margin-left: 20px;
+}
+.navbar-icons-left li .image-1{
+  width: 20px;
+}
+.navbar-icons-left li .image-2{
+  width: 22.5px;
+}
+.navbar-icons-left li .image-3{
+  width: 25px;
+}
+.navbar-icons-left li a{
+  font-weight: 500;
+  font-size: 15px;
+}
+/* sell-off */
+.sell-off{
+  background-color: #364B70;
+  width: 100%;
+  height: 80px;
+}
+.sell-off ul li{
+  display: inline-block;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.center-list{
+  display: inline-block;
+  margin: 0px 20px;
+}
+.center-list img{
+  width: 86px;
+}
+/* carousel */
+.carousel-indicators li {
+  width: 5px !important;
+  height: 5px !important;
+  background-color: #B92728;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .nav-mobile{
+    display: block;
+  }
+  .sec-navbar{
+    display: none;
+  }
+  .sell-off{
+    height: 35px;
+  }
+  .center-list{
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  .center-list img{
+    width: 36px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .nav-mobile{
+    display: block;
+  }
+  .sec-navbar{
+    display: none;
+  }
+  .sell-off{
+    height: 35px;
+  }
+  .sell-off ul li{
+    font-size: 14px;
+  }
+  .center-list{
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  .center-list img{
+    width: 36px;
+  }
+  .hidden-mobile{
+    display: none;
+  }
+}
+@media screen and (max-width: 280px) {
+  .sell-off ul li{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .nav-mobile{
+    display: hidden;
+  }
+  .sec-navbar{
+    display: none;
+  }
+}
