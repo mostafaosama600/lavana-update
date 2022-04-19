@@ -168,24 +168,99 @@ body{
 .carousel-indicators li {
   width: 5px !important;
   height: 5px !important;
-  background-color: #B92728;
+  background-color: #B92728 ;
 }
 
+/*  */
+.mainss{
+  margin-top: 3rem;
+}
+.slide-container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 
+.arrow {
+  width: 2rem;
+  margin: 0 1rem;
+}
 
+.divS {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
+.divS::-webkit-scrollbar {
+  height: 1px;
+  width: 1px;
+}
 
+.divS .thumbnail {
+  flex: 0 0 auto;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 5px;
+  width: 111px;
+  border: 0px;
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.3s;
+}
 
+.divS .thumbnail:hover {
+  transform: scale(1);
+}
 
+.product-details {
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
 
+.product-details h2 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #212529;
+}
 
+/* slider-products-2 */
+.slider-products-2{
+  margin: 2rem 0rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background: rgba(121, 136, 151, 0.1);
+}
+.row-products{
+  background-color: #B92728;
+  border-radius: 20px;
+}
+.title-p{
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+}
+.title-link{
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
 
-
-
-
-
-
-
+.folder-image{
+  max-width: 100%;
+}
+/* large-bg */
+.jumbotron {
+  padding: 2rem 0rem;
+}
 
 
 
@@ -212,6 +287,17 @@ body{
   .center-list img{
     width: 36px;
   }
+  .title-p{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .title-link{
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .row-products{
+    border-radius: 15px;
+  }
 }
 @media screen and (max-width: 920px) {
   .nav-mobile{
@@ -235,6 +321,17 @@ body{
   }
   .hidden-mobile{
     display: none;
+  }
+  .title-p{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .title-link{
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .row-products{
+    border-radius: 15px;
   }
 }
 @media screen and (max-width: 280px) {
