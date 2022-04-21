@@ -14,8 +14,7 @@
 </head>
 <body>
     <!-- ================== S T A R T   (L A V A N A)   H O M E   P A G E ================== -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-white">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 100000000000000000;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +23,6 @@
             <a class="navbar-brand" href="#"><img src="img/add-card.png" alt=""></a>
             <a class="navbar-brand" href="#"><img src="img/profile.png" alt=""></a>
         </div>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item ">
@@ -42,10 +40,8 @@
                     </div>
                 </li>
                 <!-- search bar -->
-                <li class="nav-item">
-                    <label for="">
-                        <input class="search-bar" type="search border" placeholder=" عن ماذا تبحث ؟">
-                    </label>
+                <li class="nav-item" style="margin-top: -5px;">
+                      <input class="search-bar" type="search border" placeholder=" عن ماذا تبحث ؟">
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -66,9 +62,10 @@
             </ul>
         </div>
       </nav>
+
       <!-- secend-navbar -->
       <nav class="navbar sec-navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown main-dropdown-1">
                 <a class="nav-link dropdown-toggle" href="#">تسوق حسب الاقسام</a>
@@ -128,22 +125,20 @@
             </li>
           </ul>
           <ul class="navbar-nav navbar-icons-left mr-auto">
-              <li class="nav-item text-center"><img class="image-1" src="img/profile.png" alt=""><a class="nav-link" href="">تسجيل الدخول</a></li>
-              <li class="nav-item text-center"><img class="image-2" src="img/heart.png" alt=""><a class="nav-link" href="">المفضله</a></li>
-              <li class="nav-item text-center"><img class="image-3" src="img/add-card.png" alt=""><a class="nav-link" href="">عربه التسوق</a></li>
+              <li class="nav-item text-center"><img class="image-1" src="img/profile.png" alt=""><a class="nav-link link-911" href="">تسجيل الدخول</a></li>
+              <li class="nav-item text-center"><img class="image-2" src="img/heart.png" alt=""><a class="nav-link link-911" href="">المفضله</a></li>
+              <li class="nav-item text-center"><img class="image-3" src="img/add-card.png" alt=""><a class="nav-link link-911" href="">عربه التسوق</a></li>
           </ul>
         </div>
       </nav>
-      <!-- third-navbar -->
-      <div class="sell-off">
-          <div class="content text-center">
-              <ul>
-                  <li>إغتنم تخفضيات  20%  بمناسبة شهر رمضان</li>
-                  <li class="center-list"><img src="img/ramadan.png" alt=""></li>
-                  <li class="hidden-mobile">رمضان كريم</li>
-              </ul>
-          </div>
+      <!-- secend-navbar -->
+
+      <!-- lg-background blue-ads -->
+      <div class="jumbotron bg-white" style="margin: 0px; margin-top: -16px;">
+        <img src="img/Group 186.png" class="w-100" alt="">
       </div>
+      <!-- lg-background blue-ads -->
+      
       <!-- start carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -175,6 +170,8 @@
           <span class="sr-only">Next</span>
         </button>
       </div>
+      <!-- end carousel -->
+
       <!-- 12 card of image -->
       <div class="mainss">
         <div class="slide-container">
@@ -279,21 +276,23 @@
           </div>
         </div>
       </div>
-      <!--  -->
+      <!-- 12 card of image -->
+
+      <!-- section 4 slider-products-2 -->
       <div class="container-fluid slider-products-2">
-        <div class="row row-cols-2 row-cols-md-4">
+        <div class="row row-cols-1 row-cols-md-4">
 
           <div class="col mb-4">
             <div class="cards">
               <div class="row no-gutters p-2 row-products">
                 <div class="col-md-8 text-right">
                   <div class="card-body">
-                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك  اكتر من منتج</p>
                     <small><a class="title-link" href="">الأحذية</a></small>
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Rectangle 722.png" class="folder-image" alt="...">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
                 </div>
               </div>
             </div>
@@ -309,7 +308,7 @@
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Rectangle 722.png" class="folder-image" alt="...">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
                 </div>
               </div>
             </div>
@@ -325,7 +324,7 @@
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Rectangle 722.png" class="folder-image" alt="...">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
                 </div>
               </div>
             </div>
@@ -341,21 +340,23 @@
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Rectangle 722.png" class="folder-image" alt="...">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- lg-background -->
+      <!-- section 4 -->
+
+      <!-- section 5 lg-background -->
       <div class="jumbotron bg-white">
-        <div class="container">
+        <div class="container bg-counter-section">
           <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4 text-right text-white">
-              <div class="card" style="background-color: #364B70;border-radius: 50px 0px; width: 347px;">
+              <div class="card counter-section-card-1">
                 <div class="card-body">
-                  <h2 class="card-title" style="font-size: 24px; text-align: center; line-height: 25px; font-weight: 600;">عروض شهر رمضان
+                  <h2 class="card-title">عروض شهر رمضان
                     <img src="img/helal.png" alt="">
                   </h2>
                 </div>
@@ -364,7 +365,7 @@
             <div class="col mb-4">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Card title Card title Card title Card title Card title</h5>
+                  <h5 class="card-title">2 : 12 : 03 : 15</h5>
                 </div>
               </div>
             </div>
@@ -372,8 +373,9 @@
         </div>
         <img src="img/large-bg.png" class="w-100" alt="">
       </div>
+      <!-- section 5 -->
 
-      <!-- section deals -->
+      <!-- section 6 deals -->
       <div class="container-fluid section-deals">
         <div class="row row-cols-1 row-cols-md-1">
           <div class="col mb-4 text-center">
@@ -389,8 +391,9 @@
           </div>
         </div>
       </div>
+      <!-- section 6  -->
 
-      <!-- today's offers -->
+      <!-- section 7 today's offers -->
       <div class="container-fluid today-offer">
         <div class="row row-cols-2 row-cols-md-2">
           <div class="col mb-4">
@@ -404,9 +407,7 @@
               </div>
           </div>
         </div>
-
         <div class="row row-cols-1 row-cols-md-4">
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed">
@@ -509,16 +510,16 @@
           </div>
         </div>
       </div>
-      <!-- Super Ramadan Offers -->
+      <!-- section 7 -->
+
+      <!-- section 8 Super Ramadan Offers -->
       <div class="container-fluid super-ramadan-offers">
-        <div class="super-24-hours text-center mt-3 mb-4">
+        <div class="super-24-hours text-center mt-3 mb-3">
           <div class="content-24">
             <p>عروض سوبر لـ 24 ساعه فقط <img src="img/helal-2.png" alt=""> </p>
           </div>
         </div>
-        <!--  -->
         <div class="row row-cols-2 row-cols-md-5">
-
           <div class="col mb-4">
             <div class="card">
               <img src="img/Rectangle 744.png" class="card-img-top" alt="...">
@@ -566,8 +567,9 @@
           </div>
         </div>
       </div>
+      <!-- section 8 Super Ramadan Offers -->
 
-      <!-- today-offer-number-2 -->
+      <!-- section 9 today offer number-2 -->
       <div class="container-fluid today-offer-number-2">
         <div class="row row-cols-2 row-cols-md-2">
           <div class="col mb-4">
@@ -582,7 +584,6 @@
           </div>
         </div>
         <div class="row row-cols-1 row-cols-md-6">
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -746,9 +747,10 @@
           </div>
         </div>
       </div>
-      <!-- Super Ramadan Offers-2 -->
-      <div class="container-fluid super-ramadan-offers-2">
+      <!-- section 9 -->
 
+      <!-- section 10 Super Ramadan Offers-2 -->
+      <div class="container-fluid super-ramadan-offers-2">
         <div class="row row-cols-2 row-cols-md-2 mt-4">
           <div class="col mb-4">
               <div class="card-body text-right">
@@ -761,21 +763,10 @@
               </div>
           </div>
         </div>
-
-        <div class="row row-cols-3 row-cols-md-5">
-
+        <div class="row row-cols-2 row-cols-md-5">
           <div class="col mb-4">
             <div class="card">
-              <img src="img/Vector 29.png" class="card-img-top" alt="...">
-              <div class="card-body box-1-of-ramadan-2">
-                <h5 class="card-title text-center">الإفطار والسحور</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/Vector 29.png" class="card-img-top" alt="...">
+              <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
                 <h5 class="card-title text-center">الإفطار والسحور</h5>
               </div>
@@ -783,7 +774,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="img/Vector 29.png" class="card-img-top" alt="...">
+              <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
                 <h5 class="card-title text-center">الإفطار والسحور</h5>
               </div>
@@ -791,7 +782,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="img/Vector 29.png" class="card-img-top" alt="...">
+              <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
                 <h5 class="card-title text-center">الإفطار والسحور</h5>
               </div>
@@ -799,7 +790,15 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="img/Vector 29.png" class="card-img-top" alt="...">
+              <img src="img/Vector 30.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-2">
+                <h5 class="card-title text-center">الإفطار والسحور</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
                 <h5 class="card-title text-center">الإفطار والسحور</h5>
               </div>
@@ -807,10 +806,11 @@
           </div>
         </div>
       </div>
-      <!-- slider-products-3 -->
+      <!-- section 10 -->
+      
+      <!-- section 11 slider products 3 -->
       <div class="container-fluid slider-products-2">
-        <div class="row row-cols-2 row-cols-md-3">
-
+        <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4">
             <div class="cards">
               <div class="row no-gutters p-4 row-products">
@@ -821,12 +821,11 @@
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Vector 29.png" class="folder-image" alt="...">
+                  <img src="img/Vector 29.png" class="folder-image img-responsive-slider" alt="...">
                 </div>
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="cards">
               <div class="row no-gutters p-4 row-products">
@@ -837,12 +836,11 @@
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Vector 29.png" class="folder-image" alt="...">
+                  <img src="img/Vector 29.png" class="folder-image img-responsive-slider" alt="...">
                 </div>
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="cards">
               <div class="row no-gutters p-4 row-products">
@@ -853,23 +851,23 @@
                   </div>
                 </div>
                 <div class="col-md-4 mt-1">
-                  <img src="img/Vector 29.png" class="folder-image" alt="...">
+                  <img src="img/Vector 29.png" class="folder-image img-responsive-slider" alt="...">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Super Ramadan Offers-3 -->
+      <!-- section 11 -->
+
+      <!-- section 12 Super Ramadan Offers 3 -->
       <div class="container-fluid super-ramadan-offers-3">
         <div class="super-24-hours-3 text-center mt-3 mb-4">
           <div class="content-24-3">
             <p>عروض سوبر لـ 24 ساعه فقط <img src="img/helal-2.png" alt=""> </p>
           </div>
         </div>
-        <!--  -->
         <div class="row row-cols-2 row-cols-md-4">
-
           <div class="col mb-4">
             <div class="card">
               <img src="img/unsplash_5gkYsrH_ebY.png" class="card-img-top" alt="...">
@@ -904,12 +902,14 @@
           </div>
         </div>
       </div>
-      <!-- today-offer-number-3 -->
+      <!-- section 12 -->
+
+      <!-- section 13 today-offer-number-3 -->
       <div class="container-fluid today-offer-number-2 bg-white">
         <div class="row row-cols-2 row-cols-md-2">
           <div class="col mb-4">
               <div class="card-body text-right">
-                <h5 class="card-title heading-c-t">أزياء نسائية</h5>
+                <h5 class="card-title heading-c-t">أزياء <span class="heading-span">نسائية</span></h5>
               </div>
           </div>
           <div class="col mb-4">
@@ -1083,10 +1083,11 @@
           </div>
         </div>
       </div>
-      <!-- Super Ramadan Offers-4 -->
-      <div class="container-fluid super-ramadan-offers-4">
+      <!-- section 13 -->
 
-        <div class="row row-cols-1 row-cols-md-2 mt-4">
+      <!-- section 14 Super Ramadan Offers 4 -->
+      <div class="container-fluid super-ramadan-offers-4">
+        <div class="row row-cols-2 row-cols-md-2">
           <div class="col mb-4">
               <div class="card-body text-right">
                 <h5 class="card-title heading-r-o">خصم <span class="heading-span-2">40 %</span> على الأزياء النسائية  </h5>
@@ -1098,9 +1099,7 @@
               </div>
           </div>
         </div>
-
-        <div class="row row-cols-3 row-cols-md-5">
-
+        <div class="row row-cols-2 row-cols-md-5">
           <div class="col mb-4">
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
@@ -1109,7 +1108,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
@@ -1144,26 +1142,58 @@
           </div>
         </div>
       </div>
-      <!-- Super Ramadan Offers-5 -->
-      <div class="container-fluid super-ramadan-offers-5">
+      <!-- section 14 -->
 
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col mb-4 mt-5">
+      <!-- section 15 Super Ramadan Offers 5 -->
+      <div class="container-fluid super-ramadan-offers-5">
+        <div class="row row-cols-2 row-cols-md-2">
+          <div class="col mb-1 ">
               <div class="card-body text-right">
                 <h5 class="card-title heading-r-o">تخفيضات حتي 40 % </h5>
                 <p class="heading-r-o-p mt-4">عروض لمده 24 ساعه تصفح المنتجات الان قبل نفاذ الكميه</p>
               </div>
-          </div>
-          <div class="col mb-4 mt-5">
+            </div>
+          <div class="col mb-1 ">
               <div class="card-body text-left">
                 <button class="btn btn-link-a-5">تسوق الان</button>
               </div>
           </div>
         </div>
-
         <div class="row row-cols-9 row-cols-md-9">
+          <div class="col mb-1">
+            <div class="card">
+              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
+              <div class="card-body box-1-of-ramadan-5">
+                <h5 class="card-title text-center">عطور</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-1">
+            <div class="card">
+              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
+              <div class="card-body box-1-of-ramadan-5">
+                <h5 class="card-title text-center">عطور</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-1">
+            <div class="card">
+              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
+              <div class="card-body box-1-of-ramadan-5">
+                <h5 class="card-title text-center">عطور</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-1">
+            <div class="card">
+              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
+              <div class="card-body box-1-of-ramadan-5">
+                <h5 class="card-title text-center">عطور</h5>
+              </div>
+            </div>
+          </div>
 
-          <div class="col mb-4">
+          <div class="col mb-1">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1171,40 +1201,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
-              <div class="card-body box-1-of-ramadan-5">
-                <h5 class="card-title text-center">عطور</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
-              <div class="card-body box-1-of-ramadan-5">
-                <h5 class="card-title text-center">عطور</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
-              <div class="card-body box-1-of-ramadan-5">
-                <h5 class="card-title text-center">عطور</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
-              <div class="card-body box-1-of-ramadan-5">
-                <h5 class="card-title text-center">عطور</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
+          <div class="col mb-1">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1213,7 +1210,7 @@
             </div>
           </div>
           
-          <div class="col mb-4">
+          <div class="col mb-1">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1221,7 +1218,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4">
+          <div class="col mb-1">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1229,7 +1226,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4">
+          <div class="col mb-1">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1239,6 +1236,8 @@
           </div>
         </div>
       </div>
+      <!-- section 15 -->
+
       <!-- Super Ramadan Offers-3 -->
       <div class="container-fluid super-ramadan-offers-3">
         <div class="super-24-hours-3 text-center mt-3 mb-4">
@@ -1246,9 +1245,7 @@
             <p>تألق طول شهر رمضان <img src="img/helal-2.png" alt=""> </p>
           </div>
         </div>
-        <!--  -->
         <div class="row row-cols-2 row-cols-md-4">
-
           <div class="col mb-4">
             <div class="card">
               <img src="img/unsplash_5gkYsrH_ebY.png" class="card-img-top" alt="...">
@@ -1283,6 +1280,8 @@
           </div>
         </div>
       </div>
+      <!-- Super Ramadan Offers-3 -->
+
       <!-- today-offer-number-3 -->
       <div class="container-fluid today-offer-number-2 bg-white">
         <div class="row row-cols-2 row-cols-md-2">
@@ -1462,10 +1461,11 @@
           </div>
         </div>
       </div>
+      <!-- today-offer-number-3 -->
+
       <!-- Super Ramadan Offers-4 -->
       <div class="container-fluid super-ramadan-offers-4">
-
-        <div class="row row-cols-1 row-cols-md-2 mt-4">
+        <div class="row row-cols-2 row-cols-md-2 mt-4">
           <div class="col mb-4">
               <div class="card-body text-right">
                 <h5 class="card-title heading-r-o">خصم <span class="heading-span-2">40 %</span> على الأزياء الرجاليه  </h5>
@@ -1477,9 +1477,7 @@
               </div>
           </div>
         </div>
-
-        <div class="row row-cols-3 row-cols-md-5">
-
+        <div class="row row-cols-2 row-cols-md-5">
           <div class="col mb-4">
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
@@ -1488,7 +1486,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
@@ -1523,27 +1520,25 @@
           </div>
         </div>
       </div>
-      <!-- lg-background -->
-      <!-- Super Ramadan Offers-6 -->
+      <!-- Super Ramadan Offers-4 -->
+      
+      <!-- section 16 Super Ramadan Offers 6 -->
       <div class="container-fluid super-ramadan-offers-6">
-
-        <div class="row row-cols-1 row-cols-md-2 mt-4">
-          <div class="col mb-4 mt-4">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
               <div class="card-body text-right">
                 <h5 class="card-title heading-r-o">عروض على إحتياجات البيت لشهر رمضان
                   <img src="img/helal-2.png" alt="">
                 </h5>
               </div>
           </div>
-          <div class="col mb-4 mt-4">
+          <div class="col mb-4">
               <div class="card-body text-left">
                 <button class="btn btn-link-a-66">شاهد كل العروض</button>
               </div>
           </div>
         </div>
-
         <div class="row row-cols-2 row-cols-md-5">
-
           <div class="col mb-4">
             <div class="card">
               <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
@@ -1592,6 +1587,8 @@
           </div>
         </div>
       </div>
+      <!-- section 16 -->
+
       <!-- today-offer-number-4 -->
       <div class="container-fluid today-offer-number-2 bg-white">
         <div class="row row-cols-2 row-cols-md-2">
@@ -1607,7 +1604,6 @@
           </div>
         </div>
         <div class="row row-cols-1 row-cols-md-6">
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -1622,7 +1618,6 @@
                     <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
                   </ul>
               </div>
-
               <div class="card-body text-right">
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
@@ -1634,7 +1629,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -1649,7 +1643,6 @@
                     <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
                   </ul>
               </div>
-
               <div class="card-body text-right">
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
@@ -1661,7 +1654,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -1676,7 +1668,6 @@
                     <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
                   </ul>
               </div>
-
               <div class="card-body text-right">
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
@@ -1688,7 +1679,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -1703,7 +1693,6 @@
                     <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
                   </ul>
               </div>
-
               <div class="card-body text-right">
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
@@ -1715,7 +1704,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -1730,7 +1718,6 @@
                     <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
                   </ul>
               </div>
-
               <div class="card-body text-right">
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
@@ -1742,7 +1729,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card ">
               <div class="img-boxed-2">
@@ -1757,7 +1743,6 @@
                     <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
                   </ul>
               </div>
-
               <div class="card-body text-right">
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
                 <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
@@ -1771,6 +1756,8 @@
           </div>
         </div>
       </div>
+      <!-- today-offer-number-4 -->
+
       <!-- today-offer-number-5 -->
       <div class="container-fluid today-offer-number-2 bg-white">
         <div class="row row-cols-2 row-cols-md-2">
@@ -1950,6 +1937,958 @@
           </div>
         </div>
       </div>
+      <!-- today-offer-number-5 -->
+
+      <!-- slider-products-2 -->
+      <div class="container-fluid slider-products-2">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="cards">
+              <div class="row no-gutters p-2 row-products">
+                <div class="col-md-8 text-right">
+                  <div class="card-body">
+                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <small><a class="title-link" href="">الأحذية</a></small>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-1">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="cards">
+              <div class="row no-gutters p-2 row-products">
+                <div class="col-md-8 text-right">
+                  <div class="card-body">
+                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <small><a class="title-link" href="">الأحذية</a></small>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-1">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="cards">
+              <div class="row no-gutters p-2 row-products">
+                <div class="col-md-8 text-right">
+                  <div class="card-body">
+                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <small><a class="title-link" href="">الأحذية</a></small>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-1">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- slider-products-2 -->
+
+      <!-- Super Ramadan Offers-6 -->
+      <div class="container-fluid super-ramadan-offers-7">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+              <div class="card-body text-right">
+                <h5 class="card-title heading-r-o">عروض على إحتياجات البيت لشهر رمضان
+                  <img src="img/helal-2.png" alt="">
+                </h5>
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card-body text-left">
+                <button class="btn btn-link-a-7">شاهد كل العروض</button>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-5">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Super Ramadan Offers-6 -->
+
+      <!-- today-offer-number-6 -->
+      <div class="container-fluid today-offer-number-2 bg-white">
+        <div class="row row-cols-2 row-cols-md-2">
+          <div class="col mb-4">
+              <div class="card-body text-right">
+                <h5 class="card-title heading-c-t">عروض <span class="heading-span"> الكمبيوتر </span></h5>
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card-body text-left">
+                <button class="btn btn-link-a">تسوق الان</button>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-6">
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- today-offer-number-6 -->
+
+      <!-- today-offer-number-7 -->
+      <div class="container-fluid today-offer-number-2 bg-white">
+        <div class="row row-cols-2 row-cols-md-2">
+          <div class="col mb-4">
+              <div class="card-body text-right">
+                <h5 class="card-title heading-c-t">عروض   <span class="heading-span"> الموبايل </span></h5>
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card-body text-left">
+                <button class="btn btn-link-a">تسوق الان</button>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-6">
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- today-offer-number-7 -->
+
+      <!-- lg-background red -->
+      <div class="jumbotron bg-white">
+        <img src="img/Group 285.png" class="w-100" alt="">
+      </div>
+      <!-- lg-background red -->
+
+      <!-- Super Ramadan Offers-6 -->
+      <div class="container-fluid super-ramadan-offers-7">
+        <div class="row row-cols-1 row-cols-md-2 mt-4">
+          <div class="col mb-4 mt-4">
+              <div class="card-body text-right">
+                <h5 class="card-title heading-r-o">عروض على إحتياجات البيت لشهر رمضان
+                  <img src="img/helal-2.png" alt="">
+                </h5>
+              </div>
+          </div>
+          <div class="col mb-4 mt-4">
+              <div class="card-body text-left">
+                <button class="btn btn-link-a-7">شاهد كل العروض</button>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-5">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-7">
+                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Super Ramadan Offers-6 -->
+
+      <!-- today-offer-number-8 -->
+      <div class="container-fluid today-offer-number-2 bg-white">
+        <div class="row row-cols-2 row-cols-md-2">
+          <div class="col mb-4">
+              <div class="card-body text-right">
+                <h5 class="card-title heading-c-t">عروض <span class="heading-span"> الموبايل </span></h5>
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card-body text-left">
+                <button class="btn btn-link-a">تسوق الان</button>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-6">
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- today-offer-number-8 -->
+
+      <!-- today-offer-number-9 -->
+      <div class="container-fluid today-offer-number-2 bg-white">
+        <div class="row row-cols-2 row-cols-md-2">
+          <div class="col mb-4">
+              <div class="card-body text-right">
+                <h5 class="card-title heading-c-t">عروض <span class="heading-span"> الموبايل </span></h5>
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card-body text-left">
+                <button class="btn btn-link-a">تسوق الان</button>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-6">
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card ">
+              <div class="img-boxed-2">
+                <img src="img/shoes-2.png" class="card-img-top" alt="...">
+                  <div class="sall-off-15">
+                    <img src="img/vector-salle.png" alt="">
+                    <p>خصم 15 %</p>
+                  </div>
+                  <ul class="ul-imges-ghost-2">
+                    <li><a href=""><img src="img/add-product.png"  class="img-add-4" alt=""></a></li>
+                    <li><a href=""><img src="img/like-product.png" class="img-like-5" alt=""></a></li>
+                    <li><a href=""><img src="img/view-product.png" class="img-view-6" alt=""></a></li>
+                  </ul>
+              </div>
+
+              <div class="card-body text-right">
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title t-for-title-card-6">حذاء نسائي للاناقه والراحه</h5>
+                <h5 class="card-title mt-3"><img src="img/stars.png" class="rate-stars-card-6" alt=""> <span class="clinet-rate-card-6"> (5) تقييم 420 عميل </span> </h5>
+                <ul class="shipping-btn-card-6 mt-1">
+                  <li class="btn-3">شحن سريع</li>
+                  <li class="btn-4"> SAR 60 <span class="instead-of-card-6"> 70 SAR</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- today-offer-number-9 -->
+      
+      <!-- Super Ramadan Offers-3 -->
+      <div class="container-fluid super-ramadan-offers-3" style="background: rgba(185, 39, 40, 0.1);">
+        <div class="super-24-hours-3 text-center ">
+          <div class="content-24-3 mt-4">
+            <p>تألق طول شهر رمضان <img src="img/helal-2.png" alt=""> </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-3 row-cols-md-5 text-center">
+            <div class="col mb-1">
+              <div class="card-body">
+                <img src="img/1280px-H&M-Logo 1.png" alt="">
+              </div>
+          </div>
+            <div class="col mb-1">
+              <div class="card-body">
+                <img src="img/1280px-H&M-Logo 1.png" alt="">
+              </div>
+          </div>
+            <div class="col mb-1">
+              <div class="card-body">
+                <img src="img/1280px-H&M-Logo 1.png" alt="">
+              </div>
+          </div>
+            <div class="col mb-1">
+                <div class="card-body">
+                  <img src="img/1280px-H&M-Logo 1.png" alt="">
+                </div>
+            </div>
+            <div class="col mb-1">
+              <div class="card-body">
+                <img src="img/1280px-H&M-Logo 1.png" alt="">
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Super Ramadan Offers-3 -->
+
       <!-- ================== E N D   (L A V A N A)   H O M E   P A G E ================== -->
 
     <script src="js/app.js"></script>

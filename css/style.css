@@ -9,7 +9,7 @@ body{
 }
 .navbar{
   height: 72px;
-  box-shadow: 0px 1px 0px #E5E9F2;
+  /* box-shadow: 0px 1px 0px #E5E9F2; */
 }
 .nav-logoo{
   margin-top: -14px;
@@ -17,6 +17,9 @@ body{
 .nav-link{
   color: #212529;
   font-size: 16px;
+}
+.link-911{
+  font-size: 12px !important;
 }
 .navbar-nav{
   margin-top: 20px !important;
@@ -139,47 +142,16 @@ body{
 .navbar-icons-left li{
   margin-left: 20px;
 }
-.navbar-icons-left li .image-1{
-  width: 20px;
-}
-.navbar-icons-left li .image-2{
-  width: 22.5px;
-}
-.navbar-icons-left li .image-3{
-  width: 25px;
-}
-.navbar-icons-left li a{
-  font-weight: 500;
-  font-size: 15px;
-}
-/* sell-off */
-.sell-off{
-  background-color: #364B70;
-  width: 100%;
-  height: 80px;
-}
-.sell-off ul li{
-  display: inline-block;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-.center-list{
-  display: inline-block;
-  margin: 0px 20px;
-}
-.center-list img{
-  width: 86px;
-}
+
 /* carousel */
 .carousel-indicators li {
   width: 5px !important;
   height: 5px !important;
   background-color: #B92728 ;
 }
-
-/*  */
+/* 12 card of image */
 .mainss{
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .slide-container {
   max-width: 1440px;
@@ -188,12 +160,10 @@ body{
   align-items: center;
   margin: 0 auto;
 }
-
 .arrow {
   width: 2rem;
   margin: 0 1rem;
 }
-
 .divS {
   width: 100%;
   margin: 0 auto;
@@ -204,12 +174,10 @@ body{
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-
 .divS::-webkit-scrollbar {
   height: 1px;
   width: 1px;
 }
-
 .divS .thumbnail {
   flex: 0 0 auto;
   object-fit: cover;
@@ -221,28 +189,25 @@ body{
   transform: scale(0.95);
   transition: all 0.3s;
 }
-
 .divS .thumbnail:hover {
   transform: scale(1);
 }
-
 .product-details {
   text-align: center;
   padding-bottom: 1rem;
   background-color: #fff;
 }
-
 .product-details h2 {
   font-weight: 700;
   font-size: 14px;
   color: #212529;
 }
-
+/* 12 card of image */
 /* slider-products-2 */
 .slider-products-2{
-  margin: 2rem 0rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  margin: 0rem 0rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
   background: rgba(121, 136, 151, 0.1);
 }
 .row-products{
@@ -250,27 +215,42 @@ body{
   border-radius: 20px;
 }
 .title-p{
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
   font-weight: 700;
 }
 .title-link{
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
 }
 
 .folder-image{
   max-width: 100%;
 }
-/* large-bg */
+/* section 5 lg-background */
 .jumbotron {
-  padding: 2rem 0rem;
+  padding-top: 1rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  padding-bottom: 0rem;
 }
-/* section-deals */
+.bg-counter-section .counter-section-card-1{
+  background-color: #364B70;
+  border-radius: 50px 0px;
+  width: 400px;
+
+}
+.counter-section-card-1 .card-title{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+/* section 5 lg-background */
+/* section 6 deals */
 .section-deals{
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
+  margin-top: -40px;
+  padding-top: 1.5rem;
 }
 .section-deals .card{
   border: 0px;
@@ -278,12 +258,11 @@ body{
 .deals-heading{
   font-weight: 700;
   font-size: 28px;
-  line-height: 24px;
   color: #323232;
 }
 .deals-p{
-  margin-top: 35px;
-  margin-bottom: 35px !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-weight: 700;
   font-size: 36px;
   color: #B92728;
@@ -303,20 +282,17 @@ body{
 }
 .red-bg h1{
   font-weight: 700;
-  font-size: 48px;
+  font-size: 45px;
   color: #FFFFFF;
 }
-/* today-offer */
+/* section 7 today-offer */
 .today-offer{
   background-color: #FFF6F2;
-  padding: 2rem 1rem;
-  margin: 50px 0px;
 }
-
 .today-offer .heading-c-t{
   font-weight: 700 !important;
   font-size: 20px !important;
-  color: #212529 !important;
+  color: #212922 !important;
 }
 .heading-span{
   color: #B92728;
@@ -334,7 +310,6 @@ body{
 .img-boxed{
   position: relative;
   transition: 0.6s;
-  cursor: pointer;
 }
 .ul-imges-ghost{
   display: flex;
@@ -342,9 +317,10 @@ body{
   list-style: none;
   align-items: center;
   position: absolute;
-  bottom: -15px;
+  bottom: -18px;
   left: 0px;
-  width: 100%; height: 80px;
+  width: 100%; 
+  height: 80px;
   background: rgba(255, 255, 255, 0.9);
   opacity: 0;
   transition: 0.4s;
@@ -358,26 +334,24 @@ body{
 }
 .img-like-2{
   width: 30px;
-
 }
 .img-view-3{
   width: 36px;
 }
 .sall-off-15{
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -1px;
+  left: -1px;
 }
 .sall-off-15 p{
   position: absolute;
   top: 20px;
-  left: -2px;
+  left: -4px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   color: #FFFFFF;
   transform: rotate(-50deg);
 }
-
 .today-offer .card-title{
   font-weight: 500;
   font-size: 18px;
@@ -389,15 +363,13 @@ body{
 .clinet-rate{
   font-size: 14px;
   color: #212922;
+  /* 123444 */
 }
-
-
 .shipping-btn{
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  
 }
 .btn-1{
   margin-right: -20px;
@@ -413,93 +385,15 @@ body{
   font-size: 24px;
   color: #B92728;
 }
-
 .instead-of{
   text-decoration: line-through;
   color: #323232;
   font-size: 18px;
 }
-/* today-offer-number-2  */
-.img-boxed-2{
-  position: relative;
-  transition: 0.6s;
-  cursor: pointer;
-}
-.ul-imges-ghost-2{
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  align-items: center;
-  position: absolute;
-  bottom: -16px;
-  left: 0px;
-  width: 100%; height: 80px;
-  background: rgba(255, 255, 255, 0.9);
-  opacity: 0;
-  transition: 0.4s;
-}
-.img-boxed-2:hover .ul-imges-ghost-2{
-  opacity: 1;
-  transition: 0.4s;
-}
-.ul-imges-ghost-2 li {
-  margin-left: 20px;
-}
-.img-add-4{
-  width: 21px;
-}
-.img-like-5{
-  width: 19px;
+/* section 7 today-offer */
 
-}
-.img-view-6{
-  width: 23px;
-}
-.today-offer-number-2{
-  background: rgba(54, 75, 112, 0.1);
-  padding: 2rem;
-}
-.today-offer-number-2 .t-for-title-card-6{
-  font-weight: 500;
-  font-size: 13px;
-  color: #212529;
-}
 
-.rate-stars-card-6{
-  max-width: 60px;
-}
-.clinet-rate-card-6{
-  font-size: 11px;
-  color: #212922;
-}
-.shipping-btn-card-6{
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.btn-3{
-  margin-right: -40px;
-  background: #B92728;
-  padding: 4px 15px;
-  color: #fff;
-  font-weight: 700px;
-  font-size: 9px; 
-  border-radius: 32px 0px;
-}
-.btn-4{
-  font-weight: 700;
-  font-size: 12px;
-  color: #B92728;
-}
-
-.instead-of-card-6{
-  text-decoration: line-through;
-  color: #323232;
-  font-size: 10px;
-}
-/* super-ramadan-offers */
+/* section 8 Super Ramadan Offers */
 .super-ramadan-offers{
   padding-top: 0rem;
   padding-bottom: 2rem;
@@ -522,40 +416,110 @@ body{
   font-size: 18px;
   color: #364B70;
 }
+.box-1-of-ramadan{
+  border: 0.5px solid #C4C4C4;
+  border-bottom-right-radius: 50px;
+}
 .box-1-of-ramadan p{
   font-weight: 700;
   font-size: 32px;
   color: #B92728;
 }
 .super-ramadan-offers .card{
-  border-color: #C4C4C4;
   box-sizing: border-box;
+  border: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px 0px;
 }
+/* section 8 */
+/* section 9 today offer number-2 */
+.today-offer-number-2{
+  background: rgba(54, 75, 112, 0.1);
+}
+.today-offer-number-2 .t-for-title-card-6{
+  font-weight: 500;
+  font-size: 13px;
+  color: #212529;
+}
+.rate-stars-card-6{
+  max-width: 60px;
+}
+.clinet-rate-card-6{
+  font-size: 11px;
+  color: #212922;
+}
+.shipping-btn-card-6{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-3{
+  margin-right: -40px;
+  background: #B92728;
+  padding: 4px 15px;
+  color: #fff;
+  font-weight: 700px;
+  font-size: 9px; 
+  border-radius: 32px 0px;
+}
+.btn-4{
+  font-weight: 700;
+  font-size: 12px;
+  color: #B92728;
+}
+.instead-of-card-6{
+  text-decoration: line-through;
+  color: #323232;
+  font-size: 10px;
+}
+.img-boxed-2{
+  position: relative;
+  transition: 0.6s;
+}
+.ul-imges-ghost-2{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  position: absolute;
+  bottom: -16px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  transition: 0.4s;
+}
+.img-boxed-2:hover .ul-imges-ghost-2{
+  opacity: 1;
+  transition: 0.4s;
+}
+.ul-imges-ghost-2 li {
+  margin-left: 40px;
+}
+.img-add-4{
+  width: 26px;
+}
+.img-like-5{
+  width: 24px;
+}
+.img-view-6{
+  width: 28px;
+}
+/* section 9 today offer number-2 */
 
-/* super-ramadan-offers-2 */
+
+
+
+/* section 10 super ramadan offers 2 */
 .super-ramadan-offers-2{
   padding-top: 0rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
-.super-24-hours-3{
-  display: flex;
-  justify-content: center;
-}
-.content-24-3 p{
-  width: 400px;
-  background: #B92728;
-  border-radius: 50px 0px;
-  padding: 12px;
-  font-weight: 700;
-  font-size: 24px;
-  color: #FFFFFF;
-}
-
 .super-ramadan-offers-2 .heading-r-o{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #323232;
 }
 .heading-span-2{
@@ -575,28 +539,43 @@ body{
 .super-ramadan-offers-2 .card{
   border: 0px;
 }
+/* section 10 super ramadan offers 2 */
+/* section 12 super ramadan offers 2 */
+.super-24-hours-3{
+  display: flex;
+  justify-content: center;
+}
+.content-24-3 p{
+  background: #B92728;
+  border-radius: 50px 0px;
+  padding: 13px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.box-1-of-ramadan-3 h5{
+  font-weight: 700;
+  font-size: 18px;
+  color: #364B70;
+}
+/* section 12 */
 /* super-ramadan-offers-3 */
 .super-ramadan-offers-3{
   padding-top: 0rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 .super-ramadan-offers-3 .heading-r-o-3{
   font-weight: 700;
   font-size: 20px;
   color: #323232;
 }
-.box-1-of-ramadan-3 h5{
-  font-weight: 700;
-  font-size: 25px;
-  color: #364B70;
-}
 .super-ramadan-offers-3 .card{
   border: 0px;
 }
-/* super-ramadan-offers-4 */
+/* section 14 super ramadan offers 4 */
 .super-ramadan-offers-4{
   padding-top: 0rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 .super-ramadan-offers-4 .heading-r-o{
   font-weight: 700;
@@ -624,10 +603,11 @@ body{
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
-/* super-ramadan-offers-5 */
+/* section 14 */
+/* section 15 super ramadan offers 5 */
 .super-ramadan-offers-5{
   padding-top: 0rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   background-color: #B92728;
 }
 .super-ramadan-offers-5 .heading-r-o{
@@ -660,6 +640,7 @@ body{
   border: 2px dashed #fff;
   border-radius: 50%;
 }
+/* section 15 */
 /* super-ramadan-offers-6 */
 .super-ramadan-offers-6{
   padding-top: 0rem;
@@ -689,7 +670,8 @@ body{
 }
 .box-1-of-ramadan-6 .title-sall-food-ramadan{
   font-weight: 700;
-  font-size: 32px;  
+  font-size: 32px;
+  /* on res fs = 15px */
   color: #B92728;
 }
 .super-ramadan-offers-6 .card{
@@ -698,6 +680,62 @@ body{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px 0px;
 }
+
+/* super-ramadan-offers-6 */
+.super-ramadan-offers-7{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #fff;
+}
+.super-ramadan-offers-7 .heading-r-o{
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  padding: 13px;
+  background: #B92728;
+  border-radius: 50px 0px;
+}
+.btn-link-a-7{
+  background: #B92728;
+  border-radius: 20px;
+  padding: 8px 15px;
+  color: #fff;
+}
+.box-1-of-ramadan-7 h5{
+  font-weight: 700;
+  font-size: 20px;
+  color: #364B70;
+}
+.box-1-of-ramadan-7 .title-sall-food-ramadan{
+  font-weight: 700;
+  font-size: 32px;  
+  color: #B92728;
+}
+.super-ramadan-offers-7 .card{
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
   .nav-mobile{
     display: block;
@@ -715,14 +753,108 @@ body{
   .center-list img{
     width: 36px;
   }
+  /* section 4 */
   .title-p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
+    width: 50%;
+  }
+  .img-responsive-m{
+    margin-top: -139px;
   }
   .title-link{
     font-weight: 300;
+    font-size: 18px;
+  }
+  /* section 4 */
+  /* section 5 */
+  .bg-counter-section .counter-section-card-1{
+    width: 100%;
+    height: 80px;
+  }
+  .counter-section-card-1 .card-title{
+    font-size: 22px;
+  }
+  /* section 5 */
+  /* section 6 */
+  .deals-heading{
+    font-size: 18px;
+  }
+  .deals-p{
+    font-size: 18px;
+  }
+  .red-bg{
+    padding: 8px;
+  }
+  .red-bg h1{
+    font-size: 18px;
+  }
+  /* section 6 */
+  /* section 7 today-offer */
+  .today-offer .heading-c-t{
+    font-size: 18px !important;
+  }
+  .ul-imges-ghost{
+    padding-left: 20px;
+    width: 100%;
+  }
+  .sall-off-15{
+    top: -0.5px;
+    left: -0.5px;
+  }
+  .today-offer .card-title{
+    font-size: 16px;
+  }
+  .btn-1{
+    padding: 4px 15px !important;
     font-size: 12px;
   }
+  .btn-2{
+    font-size: 16px;
+  }
+
+  .instead-of{
+    font-size: 13px;
+  }
+  /* section 7 */
+  /* section 9 today offer number-2 */
+  .today-offer-number-2 .t-for-title-card-6{
+    font-size: 18px;
+  }
+
+  .rate-stars-card-6{
+    max-width: 130px;
+  }
+  .clinet-rate-card-6{
+    font-size: 14px;
+  }
+  .btn-3{
+    font-size: 12px; 
+    padding: 4px 15px !important;
+  }
+  .btn-4{
+    font-size: 16px;
+  }
+  .instead-of-card-6{
+    font-size: 13px;
+  }
+  .ul-imges-ghost-2{
+    height: 80px;
+  }
+  .ul-imges-ghost-2 li {
+    margin-left: 40px;
+  }
+  .img-add-4{
+    width: 33px;
+  }
+  .img-like-5{
+    width: 30px;
+  }
+  .img-view-6{
+    width: 36px;
+  }
+  /* section 9 */
+  /* section 11 slider products 3 */
   .row-products{
     border-radius: 15px;
   }
@@ -733,12 +865,98 @@ body{
     font-size: 14px;
   }
   .box-1-of-ramadan-6 .title-sall-food-ramadan{
-    font-size: 20px;  
+    font-size: 18px !important;
   }
   .box-1-of-ramadan-6 h5{
     font-size: 14px;
   }
+  /* section 11 slider products 3 */
+  .row-products{
+    border-radius: 20px;
+  }
+  .img-responsive-slider{
+    width: 50%;
+    margin-top: -160px;
+  }
+  /* section 11 slider products 3 */
+  /* section 10 super ramadan offers 2 */
+  .super-ramadan-offers-2 .heading-r-o{
+    font-size: 18px;
+  }
+  .box-1-of-ramadan-2 h5{
+    font-size: 20px;
+  }
+  /* section 12 super ramadan offers 2 */
+  .content-24-3 p{
+    font-size: 20px;
+  }
+  .box-1-of-ramadan-3 h5{
+    font-size: 16px;
+  }
+  /* section 12 */
+  /* section 13 super ramadan offers 4 */
+  .super-ramadan-offers-4 .heading-r-o{
+    font-size: 16px;
+  }
+  .btn-link-a-4{
+    font-size: 11px;
+  }
+  .box-1-of-ramadan-4 h5{
+    font-size: 16px;
+  }
+  /* section 13 */
+  /* section 15 super ramadan offers 5 */
+  .super-ramadan-offers-5 .heading-r-o{
+    font-size: 18px;
+  }
+  .super-ramadan-offers-5 .heading-r-o-p{
+    font-size: 10px;
+  }
+  .btn-link-a-5{
+    font-size: 14px;
+  }
+  .box-1-of-ramadan-5 h5{
+    font-size: 16px;
+  }
+  /* section 15 */
+  /* super-ramadan-offers-6 */
+  .super-ramadan-offers-7{
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+  }
+  .super-ramadan-offers-7 .heading-r-o{
+    font-size: 15px;
+  }
+  .btn-link-a-7{
+    font-size: 15px;
+  }
+  .box-1-of-ramadan-7 h5{
+    font-size: 15px;
+  }
+  .box-1-of-ramadan-7 .title-sall-food-ramadan{
+    font-size: 18px;
+  }
+  /* super-ramadan-offers-6 */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 920px) {
   .nav-mobile{
     display: block;
@@ -763,12 +981,12 @@ body{
     display: none;
   }
   .title-p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
   }
   .title-link{
     font-weight: 300;
-    font-size: 12px;
+    font-size: 18px;
   }
   .row-products{
     border-radius: 15px;
@@ -790,13 +1008,30 @@ body{
   .super-ramadan-offers-6 .heading-r-o{
     font-size: 14px;
   }
-  .box-1-of-ramadan-6 .title-sall-food-ramadan{
-    font-size: 20px;  
-  }
   .box-1-of-ramadan-6 h5{
     font-size: 14px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 280px) {
   .sell-off ul li{
     font-size: 10px;
