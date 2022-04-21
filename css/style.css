@@ -11,6 +11,55 @@ body{
   height: 72px;
   /* box-shadow: 0px 1px 0px #E5E9F2; */
 }
+/* swip left for menu */
+.fixed-menuAgain {
+  background-color: #fff;
+  color: #222;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -10090px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.xxxx{
+  background-color: #fff;
+  width: 100%;
+  transition: 0.1s !important;
+}
+.fixed-menuAgain ul {
+  margin-top: 8px;
+  list-style: none;
+  text-align: right;
+}
+.fixed-menuAgain li {
+  margin-top: 25px;
+}
+.fixed-menuAgain li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.fixed-menuAgain li a:hover {
+  color: #B92728;
+  transition: 0.3s ease-in-out;
+}
+.fixed-menuAgain .fa-chevron-righttt {
+  position: absolute;
+  left: -116px !important;
+  top: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 0px solid transparent;
+  border-radius: 0.25rem;
+  background-color: transparent !important;
+}
 .nav-logoo{
   margin-top: -14px;
 }
@@ -81,6 +130,7 @@ body{
 .main-dropdown-1:hover .sub-menu-1 ul li{
   text-align: right;
   padding: 10px;
+  margin: 3px 0px;
   border-radius: 0px;
   background: transparent;
 }
@@ -107,6 +157,7 @@ body{
 .hover-me:hover .sub-menu-2 ul li{
   text-align: right;
   padding: 10px;
+  margin: 3px 0px;
   border-radius: 0px;
   background: transparent;
 }
@@ -134,6 +185,7 @@ body{
   text-align: right;
   padding: 10px;
   border-radius: 0px;
+  margin: 3px 0px;
   background: transparent;
 }
 .hover-me-2:hover .sub-menu-3 ul li a{
@@ -718,23 +770,42 @@ body{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* model pop up for sign up */
+.close-btn-model{
+  margin: 7px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 0.5px solid #EEEEEE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.modal-title{
+  font-size: 28px;
+}
+.span-red-model{
+  color: #B92728;
+}
+.modal-body{
+  padding: 0px 35px;
+}
+.modal-footer{
+  padding: 10px 35px;
+}
+.btn-pop-up{
+  width: 500px;
+  height: 40px;
+  background: #B92728;
+  border-radius: 20px;
+  border: 0px;
+  color: #fff;
+}
+/* model pop up for sign up */
+.menu-ghostee{
+  position: absolute;
+  right: -4000000000;
+}
 
 @media screen and (max-width: 480px) {
   .nav-mobile{
@@ -938,25 +1009,16 @@ body{
     font-size: 18px;
   }
   /* super-ramadan-offers-6 */
+  /* model pop up for sign up */
+  .modal{
+    margin-top: 80px !important;
+  }
+  /* model pop up for sign up */
+  /* swip left for menu */
+  .fixed-menuAgain {
+    right: -420px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 920px) {
   .nav-mobile{
     display: block;
@@ -1011,27 +1073,10 @@ body{
   .box-1-of-ramadan-6 h5{
     font-size: 14px;
   }
+  .sec-navbar{
+    display: none !important;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 280px) {
   .sell-off ul li{
     font-size: 10px;
@@ -1043,5 +1088,26 @@ body{
   }
   .sec-navbar{
     display: none;
+  }
+  .search-bar{
+    width: 600px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 50px;
+  }
+  .sec-navbar{
+    display: block;
+  }
+  .sec-navbar ul li a{
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .search-bar{
+    width: 370px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 50px;
   }
 }
