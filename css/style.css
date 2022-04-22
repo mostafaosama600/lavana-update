@@ -9,7 +9,6 @@ body{
 }
 .navbar{
   height: 72px;
-  /* box-shadow: 0px 1px 0px #E5E9F2; */
 }
 /* swip left for menu */
 .fixed-menuAgain {
@@ -827,7 +826,6 @@ body{
   font-size: 13px !important;
 }
 /* pop up header (navbar for mobile app) */
-
 /* model pop up for sign up */
 .close-btn-model{
   margin: 7px;
@@ -850,6 +848,19 @@ body{
 }
 .modal-footer{
   padding: 10px 35px;
+}
+/* model for making account */
+.sighn-with-email{
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  padding: 60px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.sighn-with-number{
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  padding: 60px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn-pop-up{
   width: 500px;
@@ -908,24 +919,7 @@ body{
   display: inline-block;
   margin: 0px 4px;
 }
-
 /* help-lavana */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 .containerF {
   max-width: 1170px;
@@ -1069,18 +1063,7 @@ ul {
   padding-bottom: 10px;
 }
 /* footer */
-
-
-
-
-
-
-
-
-
-
-
-
+/* start resbonsive */
 @media screen and (max-width: 480px) {
   .nav-mobile{
     display: block;
@@ -1336,35 +1319,6 @@ ul {
     text-align: center;
   }
   /* counted time */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* footer */
   .footer-col {
     width: 50%;
@@ -1378,38 +1332,9 @@ ul {
     margin-left: 40px;
   }
   /* footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 @media screen and (max-width: 920px) {
+
   .nav-mobile{
     display: block;
   }
@@ -1492,12 +1417,14 @@ ul {
     font-size: 11px;
   }
 }
-
 @media screen and (max-width: 1024px) {
   .search-bar{
     width: 370px;
     height: 56px;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 50px;
+  }
+  .ul-imges-ghost-2{
+    display: none;
   }
 }
