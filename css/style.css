@@ -61,6 +61,10 @@ body{
 }
 .nav-logoo{
   margin-top: -14px;
+  width: 65px;
+}
+.l-res-ogo{
+  margin: 0px !important;
 }
 .nav-link{
   color: #212529;
@@ -1477,7 +1481,23 @@ ul {
     right: 10px;
     width: 50px;
   }
+  .g-im{
+    width: 70px;
+  }
+  .sall-off-15 p{
+    font-size: 13px;
+  }
   /* footer */
+  .ul-imges-ghost-2{
+    /* display: none; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .ul-imges-ghost-2 li{
+    width: 100%;
+    margin-left: 40px !important;
+  }
 }
 @media screen and (max-width: 920px) {
 
@@ -1586,10 +1606,11 @@ ul {
     color: #000;
   }
   .instead-of{
-    font-size: 11px;
+    font-size: 15px;
+    /* background-color: #000; */
   }
   .instead-of-card-6{
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .btn-3{
@@ -1602,6 +1623,7 @@ ul {
     margin-right: 20px !important;
   }
 }
+
 @media screen and (max-width: 280px) {
   .sell-off ul li{
     font-size: 10px;
@@ -1645,6 +1667,7 @@ ul {
   .lo{
     width: 8px;
   }
+  
   .lav-ul-fot{
     margin-right: -5px;
     background-color: #fff;
@@ -1658,6 +1681,18 @@ ul {
     right: 10px;
     width: 50px;
   }
+  .ul-imges-ghost-2{
+    /* display: none; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .ul-imges-ghost-2 li{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
 }
   .ghost-insted-oneee{
     display: none;
@@ -1669,9 +1704,7 @@ ul {
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 50px;
   }
-  .ul-imges-ghost-2{
-    display: none;
-  }
+
   .bad-card-one{
     width: 100%;
     height: 100%;
@@ -1708,4 +1741,12 @@ ul {
   .ghost-insted-oneee{
     display: block;
   }
+  .stay-res-60{
+    font-size: 12px !important;
+  }
+
+}
+::placeholder{
+  color: #323232 !important;
+  padding-right: 5px;
 }
