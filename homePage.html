@@ -117,16 +117,16 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="nav-mobile text-left">
-            <a class="navbar-brand" href="#"><img src="img/heart.png" alt=""></a>
+            <!-- <a class="navbar-brand" href="#"><img src="img/heart.png" alt=""></a>
             <a class="navbar-brand" href="#"><img src="img/add-card.png" alt=""></a>
-            <a class="navbar-brand" data-toggle="modal" data-target="#signupModel" href="#"><img src="img/profile.png" alt=""></a>
+            <a class="navbar-brand" data-toggle="modal" data-target="#signupModel" href="#"><img src="img/profile.png" alt=""></a> -->
         </div>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav m-auto">
-                <li class="nav-item ">
+                <li class="nav-item head-heading-space-2 ">
                     <a class="nav-link" href="#"><img src="img/logo (1) 2.png" class="nav-logoo" alt=""></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item head-heading-space-2 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                         <img src="img/SA.png" width="32px" alt="">
                         تسليم لجده
@@ -138,10 +138,11 @@
                     </div>
                 </li>
                 <!-- search bar -->
-                <li class="nav-item" style="margin-top: -5px;">
+                <li class="nav-item head-heading-space-2" style="margin-top: -5px; position: relative;">
                       <input class="search-bar" type="search border" placeholder=" عن ماذا تبحث ؟">
+                      <img src="img/search-red.png" style="position: absolute; top: 20px; left: 15px;" alt="">
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item head-heading-space-2 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                         عربي
                     </a>
@@ -151,11 +152,11 @@
                       <a class="dropdown-item" href="#">French</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="img/google play.png" alt=""></a>
+                <li class="nav-item head-heading-space-2">
+                    <a class="nav-link" href="#"><img src="img/google play.png" width="110px" alt=""></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="img/google play.png" alt=""></a>
+                <li class="nav-item head-heading-space-2">
+                    <a class="nav-link" href="#"><img src="img/google play.png" width="110px" alt=""></a>
                 </li>
             </ul>
         </div>
@@ -167,7 +168,7 @@
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown main-dropdown-1">
-                <a class="nav-link dropdown-toggle" href="#">تسوق حسب الاقسام</a>
+                <a class="nav-link dropdown-toggle" style="color: #000;" href="#">تسوق حسب الاقسام</a>
                 <div class="sub-menu-1">
                     <ul>
                         <li><a href="#">الالكترونيات</a></li>
@@ -206,33 +207,35 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
               <a class="nav-link" href="##">|</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
               <a class="nav-link" href="#">الالكترونيات</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
               <a class="nav-link" href="#">ملابس رجاليه</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
               <a class="nav-link" href="#">ملابس نسائيه</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
               <a class="nav-link" href="#">اطفال</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
               <a class="nav-link" href="#">اجهزه منزليه</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item head-heading-space">
                 <a class="nav-link" href="#">كن بائعا معنا</a>
             </li>
           </ul>
           <ul class="navbar-nav navbar-icons-left mr-auto">
-            <!-- <button type="button" >تسجيل الدخول</button> -->
-              <li class="nav-item text-center"><img class="image-1" src="img/profile.png" alt=""><a class="nav-link link-911" data-toggle="modal" data-target="#signupModel" href="">تسجيل الدخول</a></li>
-              <li class="nav-item text-center"><img class="image-2" src="img/heart.png" alt=""><a class="nav-link link-911" href="">المفضله</a></li>
-              <li class="nav-item text-center"><img class="image-3" src="img/add-card.png" alt=""><a class="nav-link link-911" href="">عربه التسوق</a></li>
+              <li class="nav-item text-center"><a class="nav-link link-911" data-toggle="modal" data-target="#signupModel" href=""><img class="image-1" src="img/profile.png" alt=""><br>
+                تسجيل الدخول</a></li>
+              <li class="nav-item text-center"><a class="nav-link link-911" href=""><img class="image-2" src="img/heart.png" alt=""><br>
+                المفضله</a></li>
+              <li class="nav-item text-center" style="margin-top: -3px;"><a class="nav-link link-911" href=""> <img class="image-3" src="img/add-card.png" alt=""> <br>
+                عربه التسوق</a></li>
           </ul>
         </div>
       </nav>
@@ -456,7 +459,7 @@
 
       <!-- section 5 lg-background -->
       <div class="jumbotron bg-white">
-        <div class="container bg-counter-section">
+        <div class="container-fluid bg-counter-section">
           <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4 text-right text-white">
               <div class="card counter-section-card-1">
@@ -525,7 +528,7 @@
                     <p>خصم 15 %</p>
                   </div>
                   <ul class="ul-imges-ghost">
-                    <li><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
+                    <li class="ui-image-xyzz"><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
                     <li><a href=""><img src="img/like-product.png" class="img-like-2" alt=""></a></li>
                     <li><a href=""><img src="img/view-product.png" class="img-view-3" alt=""></a></li>
                   </ul>
@@ -550,7 +553,7 @@
                     <p>خصم 15 %</p>
                   </div>
                   <ul class="ul-imges-ghost">
-                    <li><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
+                    <li class="ui-image-xyzz"><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
                     <li><a href=""><img src="img/like-product.png" class="img-like-2" alt=""></a></li>
                     <li><a href=""><img src="img/view-product.png" class="img-view-3" alt=""></a></li>
                   </ul>
@@ -575,7 +578,7 @@
                     <p>خصم 15 %</p>
                   </div>
                   <ul class="ul-imges-ghost">
-                    <li><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
+                    <li class="ui-image-xyzz"><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
                     <li><a href=""><img src="img/like-product.png" class="img-like-2" alt=""></a></li>
                     <li><a href=""><img src="img/view-product.png" class="img-view-3" alt=""></a></li>
                   </ul>
@@ -600,7 +603,7 @@
                     <p>خصم 15 %</p>
                   </div>
                   <ul class="ul-imges-ghost">
-                    <li><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
+                    <li class="ui-image-xyzz"><a href=""><img src="img/add-product.png"  class="img-add-1" alt=""></a></li>
                     <li><a href=""><img src="img/like-product.png" class="img-like-2" alt=""></a></li>
                     <li><a href=""><img src="img/view-product.png" class="img-view-3" alt=""></a></li>
                   </ul>
@@ -624,7 +627,7 @@
       <div class="container-fluid super-ramadan-offers">
         <div class="super-24-hours text-center mt-3 mb-3">
           <div class="content-24">
-            <p>عروض سوبر لـ 24 ساعه فقط <img src="img/helal-2.png" alt=""> </p>
+            <p class="quq">عروض سوبر لـ 24 ساعه فقط <img src="img/helal-2.png" alt=""> </p>
           </div>
         </div>
         <div class="row row-cols-2 row-cols-md-5">
@@ -632,7 +635,7 @@
             <div class="card">
               <img src="img/Rectangle 744.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan">
-                <h5 class="card-title text-center">عروض الالكترونيات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">عروض الالكترونيات</a></h5>
                 <p class="card-text text-center">خصم  حتى 60 % </p>
               </div>
             </div>
@@ -641,7 +644,7 @@
             <div class="card">
               <img src="img/Rectangle 744.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan">
-                <h5 class="card-title text-center">عروض الالكترونيات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">عروض الالكترونيات</a></h5>
                 <p class="card-text text-center">خصم  حتى 60 % </p>
               </div>
             </div>
@@ -650,7 +653,7 @@
             <div class="card">
               <img src="img/Rectangle 744.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan">
-                <h5 class="card-title text-center">عروض الالكترونيات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">عروض الالكترونيات</a></h5>
                 <p class="card-text text-center">خصم  حتى 60 % </p>
               </div>
             </div>
@@ -659,7 +662,7 @@
             <div class="card">
               <img src="img/Rectangle 744.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan">
-                <h5 class="card-title text-center">عروض الالكترونيات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">عروض الالكترونيات</a></h5>
                 <p class="card-text text-center">خصم  حتى 60 % </p>
               </div>
             </div>
@@ -668,7 +671,7 @@
             <div class="card">
               <img src="img/Rectangle 744.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan">
-                <h5 class="card-title text-center">عروض الالكترونيات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">عروض الالكترونيات</a></h5>
                 <p class="card-text text-center">خصم  حتى 60 % </p>
               </div>
             </div>
@@ -876,7 +879,7 @@
             <div class="card">
               <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
-                <h5 class="card-title text-center">الإفطار والسحور</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">الإفطار والسحور</a></h5>
               </div>
             </div>
           </div>
@@ -884,7 +887,7 @@
             <div class="card">
               <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
-                <h5 class="card-title text-center">الإفطار والسحور</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">الإفطار والسحور</a></h5>
               </div>
             </div>
           </div>
@@ -892,7 +895,7 @@
             <div class="card">
               <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
-                <h5 class="card-title text-center">الإفطار والسحور</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">الإفطار والسحور</a></h5>
               </div>
             </div>
           </div>
@@ -900,7 +903,7 @@
             <div class="card">
               <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
-                <h5 class="card-title text-center">الإفطار والسحور</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">الإفطار والسحور</a></h5>
               </div>
             </div>
           </div>
@@ -908,7 +911,7 @@
             <div class="card">
               <img src="img/Vector 30.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-2">
-                <h5 class="card-title text-center">الإفطار والسحور</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">الإفطار والسحور</a></h5>
               </div>
             </div>
           </div>
@@ -980,7 +983,7 @@
             <div class="card">
               <img src="img/unsplash_5gkYsrH_ebY.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-3">
-                <h5 class="card-title text-center">أزياء نسائية</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">أزياء نسائية</a></h5>
               </div>
             </div>
           </div>
@@ -988,7 +991,7 @@
             <div class="card">
               <img src="img/unsplash_5gkYsrH_ebY.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-3">
-                <h5 class="card-title text-center">أزياء نسائية</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">أزياء نسائية</a></h5>
               </div>
             </div>
           </div>
@@ -996,7 +999,7 @@
             <div class="card">
               <img src="img/unsplash_5gkYsrH_ebY.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-3">
-                <h5 class="card-title text-center">أزياء نسائية</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">أزياء نسائية</a></h5>
               </div>
             </div>
           </div>
@@ -1004,7 +1007,7 @@
             <div class="card">
               <img src="img/unsplash_5gkYsrH_ebY.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-3">
-                <h5 class="card-title text-center">أزياء نسائية</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">أزياء نسائية</a></h5>
               </div>
             </div>
           </div>
@@ -1212,7 +1215,7 @@
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1220,7 +1223,7 @@
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1228,7 +1231,7 @@
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1236,7 +1239,7 @@
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1244,7 +1247,7 @@
             <div class="card">
               <img src="img/unsplash_O2c-AiowrCE.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1261,14 +1264,14 @@
                 <p class="heading-r-o-p mt-4">عروض لمده 24 ساعه تصفح المنتجات الان قبل نفاذ الكميه</p>
               </div>
             </div>
-          <div class="col mb-1 ">
+          <div class="col mb-1 d-playinipad">
               <div class="card-body text-left">
                 <button class="btn btn-link-a-5">تسوق الان</button>
               </div>
           </div>
         </div>
         <div class="row row-cols-9 row-cols-md-9">
-          <div class="col mb-1">
+          <div class="col mb-1 d-playinipad">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1276,7 +1279,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-1">
+          <div class="col mb-1 d-playinipad">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1284,7 +1287,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-1">
+          <div class="col mb-1 d-playinipad">
             <div class="card">
               <img src="img/unsplash_GOVTETevRm8.png" class="card-img-top dashed-border" alt="...">
               <div class="card-body box-1-of-ramadan-5">
@@ -1590,7 +1593,7 @@
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1598,7 +1601,7 @@
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1606,7 +1609,7 @@
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1614,7 +1617,7 @@
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1622,7 +1625,7 @@
             <div class="card">
               <img src="img/unsplash_TLifm8L8eM8.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-4">
-                <h5 class="card-title text-center">شنط يد</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">شنط يد</a></h5>
               </div>
             </div>
           </div>
@@ -1651,17 +1654,7 @@
             <div class="card">
               <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-6">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
-                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
-              <div class="card-body box-1-of-ramadan-6">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -1670,7 +1663,7 @@
             <div class="card">
               <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-6">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -1679,7 +1672,7 @@
             <div class="card">
               <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-6">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -1688,7 +1681,16 @@
             <div class="card">
               <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-6">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
+                <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/ramadan-food-concept-fresh-dates-and-nuts-with-ro-2021-09-02-19-23-06-utc 1.png" class="card-img-top" alt="...">
+              <div class="card-body box-1-of-ramadan-6">
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -2049,48 +2051,63 @@
 
       <!-- slider-products-2 -->
       <div class="container-fluid slider-products-2">
-        <div class="row row-cols-1 row-cols-md-3">
-          <div class="col mb-4">
-            <div class="cards">
+        <div class="row row-cols-1 row-cols-md-3" style="align-items: center;">
+          <div class="col-md-4 mb-4 ghost-insted">
+            <div class="cards bad-card-one">
               <div class="row no-gutters p-2 row-products">
-                <div class="col-md-8 text-right">
+                <div class="col-md-7 text-right">
                   <div class="card-body">
                     <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
                     <small><a class="title-link" href="">الأحذية</a></small>
                   </div>
                 </div>
-                <div class="col-md-4 mt-1">
+                <div class="col-md-5 mt-1">
                   <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-4">
+          <div class="col-md-4 mb-4 bad-col-two">
             <div class="cards">
-              <div class="row no-gutters p-2 row-products">
-                <div class="col-md-8 text-right">
+              <div class="row no-gutters p-2 row-products bad-gutters-two">
+                <div class="col-md-7 text-right">
                   <div class="card-body">
-                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <p class="card-text title-p bad-p-two">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
                     <small><a class="title-link" href="">الأحذية</a></small>
                   </div>
                 </div>
-                <div class="col-md-4 mt-1">
-                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
+                <div class="col-md-5 mt-1">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m bad-img-two" alt="...">
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-4">
+          <div class="col-md-4 mb-4 bad-col-two ghost-insted-oneee">
             <div class="cards">
-              <div class="row no-gutters p-2 row-products">
-                <div class="col-md-8 text-right">
+              <div class="row no-gutters p-2 row-products bad-gutters-two">
+                <div class="col-md-7 text-right">
                   <div class="card-body">
-                    <p class="card-text title-p">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <p class="card-text title-p bad-p-two">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
                     <small><a class="title-link" href="">الأحذية</a></small>
                   </div>
                 </div>
-                <div class="col-md-4 mt-1">
-                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m" alt="...">
+                <div class="col-md-5 mt-1">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m bad-img-two" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 bad-col-three">
+            <div class="cards">
+              <div class="row no-gutters p-2 row-products bad-gutters-three">
+                <div class="col-md-7 text-right">
+                  <div class="card-body">
+                    <p class="card-text title-p bad-p-three">تمتع بخصم 60% عند شرائك اكتر من منتج</p>
+                    <small><a class="title-link" href="">الأحذية</a></small>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-1">
+                  <img src="img/Rectangle 722.png" class="folder-image img-responsive-m bad-img-three" alt="...">
                 </div>
               </div>
             </div>
@@ -2528,7 +2545,7 @@
       <!-- today-offer-number-7 -->
 
       <!-- lg-background red -->
-      <div class="jumbotron bg-white">
+      <div class="jumbotron pb-3 bg-white">
         <img src="img/Group 285.png" class="w-100" alt="">
       </div>
       <!-- lg-background red -->
@@ -2554,7 +2571,7 @@
             <div class="card">
               <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-7">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -2564,7 +2581,7 @@
             <div class="card">
               <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-7">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -2573,7 +2590,7 @@
             <div class="card">
               <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-7">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -2582,7 +2599,7 @@
             <div class="card">
               <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-7">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -2591,7 +2608,7 @@
             <div class="card">
               <img src="img/unsplash_0vsk2_9dkqo.png" class="card-img-top" alt="...">
               <div class="card-body box-1-of-ramadan-7">
-                <h5 class="card-title text-center">تمور ومكسرات</h5>
+                <h5 class="card-title text-center"><a href="" class="link-super-last">تمور ومكسرات</a></h5>
                 <p class="title-sall-food-ramadan text-center">خصم  حتى 20 % </p>
               </div>
             </div>
@@ -2966,7 +2983,7 @@
           </div>
         </div>
         <div class="container">
-          <div class="row row-cols-3 row-cols-md-5 text-center" style="padding-bottom: 20px;">
+          <div class="row row-cols-2 row-cols-md-5 text-center" style="padding-bottom: 20px;">
             <div class="col mb-1">
               <div class="card-body">
                 <img src="img/1280px-H&M-Logo 1.png" alt="">
@@ -3018,21 +3035,21 @@
          </div>
          <div class="col-md-3 mb-5">
           <div class="content-help-lavana">
-            <img src="img/Smile.png" alt="">
+            <img src="img/Smile.png" class="scale-to-top" alt="">
            <h5 class="">مركز المساعده</h5>
            <a href="" class="text-white">help.lavana.com</a>
           </div>
         </div>
         <div class="col-md-2 mb-5">
           <div class="content-help-lavana">
-            <img src="img/Mail.png" alt="">
+            <img src="img/Mail.png" class="scale-to-top" alt="">
             <h5 class="">البريد الالكتروني</h5>
             <a href="" class="text-white">support@lavana.com</a>
           </div>
         </div>
         <div class="col-md-3 mb-5">
           <div class="content-help-lavana">
-            <img src="img/Phone.png" alt="">
+            <img src="img/Phone.png" class="scale-to-top" alt="">
             <h5 class="">عبر الهاتف</h5>
             <a href="" class="text-white">050000000</a>
           </div>
@@ -3054,6 +3071,7 @@
       <!-- footer -->
         <footer class="footerF">
           <div class="containerF">
+            <br>
               <div class="rowF text-right">
                   <div class="footer-col">
                       <h4 style="margin-top: -10px;"><img src="img/logo (1) 2.png" alt=""></h4>
@@ -3091,17 +3109,19 @@
                   <div class="footer-col">
                       <h4>تواصل معنا</h4>
                       <ul>
-                          <li><a href=""><img src="img/fax-ico.png" style="margin-left: 9px;" alt=""> الرياض - المملكه العربيه السعوديه </a></li>
-                          <li><a href=""><img src="img/phone-ico.png" style="margin-left: 12px;" alt=""> اتصل بنا الان : 04200000 </a></li>
-                          <li><a href=""><img src="img/Message-ico.png" style="margin-left: 7px;" alt=""> راسلنا الان : Support@Taswaq.com </a></li>
-                          <li><a href=""><img src="img/location-ico.png" style="margin-left: 7px;" alt=""> فاكس : 23232 </a></li>
+                          <li><a href=""><img src="img/fax-ico.png" class="lo" style="margin-left: 9px;" alt=""> الرياض - المملكه العربيه السعوديه </a></li>
+                          <li><a href=""><img src="img/phone-ico.png" class="lo" style="margin-left: 12px;" alt=""> اتصل بنا الان : 04200000 </a></li>
+                          <li><a href=""><img src="img/Message-ico.png" class="lo" style="margin-left: 7px;" alt=""> راسلنا الان : Support@Taswaq.com </a></li>
+                          <li><a href=""><img src="img/location-ico.png" class="lo" style="margin-left: 7px;" alt=""> فاكس : 23232 </a></li>
                       </ul>
                   </div>
               </div>
+              <br>
           </div>
           <div class="rowF text-right last-fot-p">
+            <img src="img/Group 291.png" class="img-h" alt="">
               <div class="socialLinFotter">
-                <p class="text-white">جميع الحقوق محفوظه 2022 صنع ب  <img src="img/heart.png" alt="">  بواسطه lavana</p>
+                <p class="text-white p-for-280 text-center">جميع الحقوق محفوظه 2022 صنع ب  <img src="img/heart.png" alt="">  بواسطه lavana</p>
               </div>
           </div>
         </div>
@@ -3109,7 +3129,7 @@
       <!-- footer -->
 
       <!-- model pop up for sign up -->
-      <div class="modal fade mt-5 text-right" role="dialog" id="signupModel">
+      <div class="modal mt-5 text-right" role="dialog" id="signupModel">
         <div class="modal-dialog text-right">
           <div class="modal-content">
             <button type="button" class="close-btn-model" data-dismiss="modal">
@@ -3141,7 +3161,7 @@
       <!-- model pop up for sign up -->
 
       <!-- model pop up for sign up (choose mobile or email) -->
-      <div class="modal fade mt-5 text-right" role="dialog" id="combleteModel">
+      <div class="modal mt-5 text-right" role="dialog" id="combleteModel">
         <div class="modal-dialog text-right">
           <div class="modal-content">
             <button type="button" class="close-btn-model" data-dismiss="modal">
@@ -3153,13 +3173,13 @@
               <span class="sighn-with-email text-right ml-4"><a data-toggle="modal" data-target="#signupModelWithEmail" data-dismiss="modal" href=""><img src="img/send-by-mail.png" width="150px" alt=""></a></span>
               <span class="sighn-with-number text-left"><a data-toggle="modal" data-target="#signupModelWithPhone" data-dismiss="modal" href=""><img src="img/send-by-phone.png" width="150px" alt=""></a></span>
             </div>
-          </div>
+          </div>          
         </div>
       </div>
       <!-- model pop up for sign up (choose mobile or email) -->
 
       <!-- model pop up for sign up with email -->
-      <div class="modal fade mt-5 text-right" role="dialog" id="signupModelWithEmail">
+      <div class="modal mt-5 text-right" role="dialog" id="signupModelWithEmail">
         <div class="modal-dialog text-right">
           <div class="modal-content">
             <button type="button" class="close-btn-model" data-dismiss="modal">
@@ -3183,7 +3203,7 @@
       <!-- model pop up for sign up with email -->
 
       <!-- model pop up for sign up with email (CHECK) -->
-      <div class="modal fade mt-5 text-right" role="dialog" id="signupModelForCheckMail">
+      <div class="modal mt-5 text-right" role="dialog" id="signupModelForCheckMail">
         <div class="modal-dialog text-right">
           <div class="modal-content">
             <button type="button" class="close-btn-model" data-dismiss="modal">
@@ -3210,7 +3230,7 @@
       <!-- model pop up for sign up with email (CHECK) -->
 
       <!-- model pop up for sign up with phone -->
-      <div class="modal fade mt-5 text-right" role="dialog" id="signupModelWithPhone">
+      <div class="modal mt-5 text-right" role="dialog" id="signupModelWithPhone">
         <div class="modal-dialog text-right">
           <div class="modal-content">
             <button type="button" class="close-btn-model" data-dismiss="modal">
@@ -3233,7 +3253,7 @@
       <!-- model pop up for sign up with phone -->
 
       <!-- model pop up for sign up with phone (CHECK) -->
-      <div class="modal fade mt-5 text-right" role="dialog" id="signupModelForCheckPhone">
+      <div class="modal mt-5 text-right" role="dialog" id="signupModelForCheckPhone">
         <div class="modal-dialog text-right">
           <div class="modal-content">
             <button type="button" class="close-btn-model" data-dismiss="modal">

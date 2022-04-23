@@ -75,6 +75,12 @@ body{
 .dropdown-item{
   color: #212529;
 }
+.head-heading-space{
+  margin: 0px 10px;
+}
+.head-heading-space-2 {
+  margin: 0px 3px;
+}
 .search-bar{
   width: 700px;
   height: 56px;
@@ -196,9 +202,11 @@ body{
 
 /* carousel */
 .carousel-indicators li {
-  width: 5px !important;
-  height: 5px !important;
-  background-color: #B92728 ;
+  width: 7px !important;
+  height: 7px !important;
+  background-color: #B92728;
+  border-radius: 50%;
+  
 }
 /* 12 card of image */
 .mainss{
@@ -274,10 +282,57 @@ body{
   font-weight: 500;
   font-size: 14px;
   color: #fff;
+  transition: all 0.3s;
+}
+.title-link:hover{
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
 .folder-image{
   max-width: 100%;
+}
+
+
+.bad-card-one{
+  width: 500px;
+  height: 200px;
+  margin-right: 20px;
+}
+.bad-col-two{
+  width: 320px !important;
+}
+.bad-col-two .cards{
+  margin-right: 135px !important;
+}
+.bad-gutters-two{
+  width: 320px;
+  height: 200px;
+}
+.bad-p-two{
+  margin-top: -5px;
+}
+.bad-img-two {
+  margin-top: -2px;
+  height: 184px;
+}
+.bad-col-three{
+  width: 320px !important;
+}
+.bad-col-three .cards{
+  margin-right: 75px;
+}
+.bad-gutters-three{
+  width: 320px;
+  height: 200px;
+}
+.bad-p-three{
+  margin-top: -15px;
+}
+.bad-img-three{
+  margin-top: -2px;
+  height: 184px;
 }
 /* section 5 lg-background */
 .jumbotron {
@@ -289,12 +344,15 @@ body{
 .bg-counter-section .counter-section-card-1{
   background-color: #364B70;
   border-radius: 50px 0px;
-  width: 400px;
+  width: 347px;
+  height: 60px;
+  margin-top: 20px;
 }
 .counter-section-card-1 .card-title{
   font-size: 24px;
   text-align: center;
   font-weight: 600;
+  margin-top: -10px;
 }
 /* counted time */
 .counter-section-card-2,.counter-section-card-3{
@@ -305,14 +363,11 @@ body{
   font-size: 50px;
 }
 .counter-section-card-2 span{
-  padding: 15px;
-  margin: 1px;
-  /* on res margin = 0 */
+  padding: 2px 6px;
   background-color: #364B70;
   color: #fff;
-  font-weight: 700;
-  font-size: 33px;
-  /* on res fs = 14px */
+  font-weight: 600;
+  font-size: 28px;
 }
 .col-bitc{
   margin-top: -15px;
@@ -345,7 +400,7 @@ body{
 }
 .bord-dashed{
   padding: 2px;
-  border: 2px dashed #B92728;
+  border: 1px dashed #B92728;
   border-radius: 50px;
 }
 .red-bg{
@@ -354,7 +409,7 @@ body{
   border-radius: 50px;
 }
 .red-bg h2{
-  font-weight: 700;
+  font-weight: 400;
   font-size: 45px;
   color: #fff;
 }
@@ -396,6 +451,9 @@ body{
   background: rgba(255, 255, 255, 0.9);
   opacity: 0;
   transition: 0.4s;
+}
+.ui-image-xyzz{
+  margin-right: -30px;
 }
 .img-boxed:hover .ul-imges-ghost{
   opacity: 1;
@@ -490,6 +548,13 @@ body{
   border: 0.5px solid #C4C4C4;
   border-bottom-right-radius: 50px;
 }
+.link-super-last{
+  color: #364B70
+}
+.link-super-last:hover{
+  color: #364B70;
+  text-decoration: none;
+}
 .box-1-of-ramadan p{
   font-weight: 700;
   font-size: 32px;
@@ -500,7 +565,15 @@ body{
   border: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px 0px;
+  transition: all 0.6s;
+  cursor: pointer;
 }
+.super-ramadan-offers .card:hover{
+  transition: all 0.6s;
+  transform: scale(0.9);
+  box-shadow: 0px 4px 4px rgba(185, 39, 40, 0.25);
+}
+
 /* section 8 */
 /* section 9 today offer number-2 */
 .today-offer-number-2{
@@ -604,6 +677,12 @@ body{
 }
 .super-ramadan-offers-2 .card{
   border: 0px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.super-ramadan-offers-2 .card:hover{
+  transform: scale(0.9);
+  transition: all 0.6s;
 }
 /* section 10 super ramadan offers 2 */
 /* section 12 super ramadan offers 2 */
@@ -637,6 +716,12 @@ body{
 }
 .super-ramadan-offers-3 .card{
   border: 0px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.super-ramadan-offers-3 .card:hover{
+  transform: scale(0.9);
+  transition: all 0.6s;
 }
 /* section 14 super ramadan offers 4 */
 .super-ramadan-offers-4{
@@ -668,6 +753,12 @@ body{
   border: 1px solid #C4C4C4;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.super-ramadan-offers-4 .card:hover{
+  box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
 }
 /* section 14 */
 /* section 15 super ramadan offers 5 */
@@ -703,7 +794,8 @@ body{
   box-sizing: border-box;
 }
 .dashed-border{
-  border: 2px dashed #fff;
+  border: 1px dashed #fff;
+  padding: 1px;
   border-radius: 50%;
 }
 /* section 15 */
@@ -745,6 +837,12 @@ body{
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 50px 0px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.super-ramadan-offers-6 .card:hover{
+  transform: scale(0.9);
+  transition: all 0.6s;
 }
 
 /* super-ramadan-offers-6 */
@@ -779,11 +877,17 @@ body{
   color: #B92728;
 }
 .super-ramadan-offers-7 .card{
-  border: 1px solid #C4C4C4;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 50px 0px;
-}
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .super-ramadan-offers-7 .card:hover{
+    transform: scale(0.9);
+    transition: all 0.3s;
+  }
 /* pop up header (navbar for mobile app) */
 .close-btn-header{
   width: 45px;
@@ -827,6 +931,9 @@ body{
 }
 /* pop up header (navbar for mobile app) */
 /* model pop up for sign up */
+.modal{
+  margin-top: 0px !important;
+}
 .close-btn-model{
   margin: 7px;
   width: 55px;
@@ -902,6 +1009,18 @@ body{
   font-size: 28px;
   margin-top: 25px;
   color: #fff;
+  text-decoration: none;
+}
+.content-help-lavana{
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.scale-to-top{
+  transition: all 0.3s;
+}
+.content-help-lavana:hover .scale-to-top{
+  transform: scale(1.3);
+  transition: all 0.3s;
 }
 .ellipse-point{
   margin-left: 20px;
@@ -998,41 +1117,47 @@ ul {
   margin-top: -20px;
   transition: 0.3s;
 }
-
-
 .lav-ul-fot{
-  margin-right: -43px;
+  margin-right: -5px;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 175px;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 .lav-ul-fot li{
   display: inline-block;
-  margin: 12px 5px !important;
+  margin: 12px 8px !important;
   padding-bottom: 3px;
   padding-left: 6px;
+  text-align: center;
   padding-right: 6px;
 }
 .lav-ul-fot li img{
   width: 15px;
 }
 .one-lav{
-  background-color: #B92728;
+  background-color: #B6AFAD;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
 }
 .two-lav{
-  background-color: #B92728;
+  background-color: #B6AFAD;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
 }
 .three-lav{
-  background-color: #B92728;
+  background-color: #B6AFAD;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
 }
 .four-lav{
-  background-color: #B92728;
+  background-color: #B6AFAD;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
@@ -1057,6 +1182,13 @@ ul {
 .last-fot-p{
   background-color: #B92728;
   margin-bottom: -30px;
+  position: relative;
+}
+.last-fot-p .img-h{
+  position: absolute;
+  top: -35px;
+  right: 40px;
+  width: 90px;
 }
 .last-fot-p p{
   margin-top: -10px;
@@ -1102,6 +1234,7 @@ ul {
   }
   .counter-section-card-1 .card-title{
     font-size: 22px;
+    margin-top: 0px !important;
   }
   /* section 5 */
   /* section 6 */
@@ -1125,6 +1258,9 @@ ul {
   .ul-imges-ghost{
     padding-left: 20px;
     width: 100%;
+  }
+  .ui-image-xyzz{
+    margin-right: -10px;
   }
   .sall-off-15{
     top: -0.5px;
@@ -1159,6 +1295,7 @@ ul {
   .btn-3{
     font-size: 12px; 
     padding: 4px 15px !important;
+    border-radius: 0px !important;
   }
   .btn-4{
     font-size: 16px;
@@ -1240,6 +1377,10 @@ ul {
   .super-ramadan-offers-5 .heading-r-o-p{
     font-size: 10px;
   }
+  .super-ramadan-offers-5 .dashed-border{
+    /* width: 10px; */
+    width: 100%;
+}
   .btn-link-a-5{
     font-size: 14px;
   }
@@ -1329,7 +1470,12 @@ ul {
   }
   .socialLinFotter {
     text-align: center;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+  }
+  .last-fot-p .img-h{
+    top: -25px;
+    right: 10px;
+    width: 50px;
   }
   /* footer */
 }
@@ -1391,10 +1537,90 @@ ul {
   .sec-navbar{
     display: none !important;
   }
+  .content-help-lavana h4{
+    font-size: 15px;
+  }
+  .content-help-lavana p{
+    font-size: 14px;
+  }
+  .content-help-lavana h5{
+    font-size: 15px;
+  }
+  .content-help-lavana a{
+    font-size: 15px;
+  }
+  .bad-card-one{
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+  }
+  .bad-col-two{
+    width: 100% !important;
+  }
+  .bad-col-two .cards{
+    margin-right: 0px !important;
+  }
+  .bad-gutters-two{
+    width: 100%;
+    height: 100%;
+  }
+  .bad-p-two{
+    margin-top: 0px;
+  }
+  .bad-col-three{
+    width: 100% !important;
+  }
+  .bad-col-three .cards{
+    margin-right: 0px;
+  }
+  .bad-gutters-three{
+    width: 100%;
+    height: 100%;
+  }
+  .bad-p-three{
+    margin-top: 0px;
+  }
+  .footer-col ul li a {
+    font-size: 8px;
+    font-weight: 500;
+    color: #000;
+  }
+  .instead-of{
+    font-size: 11px;
+  }
+  .instead-of-card-6{
+    font-size: 10px;
+  }
+
+  .btn-3{
+    font-size: 10px; 
+    padding: 4px;
+    border-radius: 0px !important;
+  }
+  .btn-4{
+    font-size: 10px !important;
+    margin-right: 20px !important;
+  }
 }
 @media screen and (max-width: 280px) {
   .sell-off ul li{
     font-size: 10px;
+  }
+  .title-p{
+    margin-right: -10px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .folder-image{
+    margin-top: -190px;
+  }
+  .p-for-280{
+    font-size: 9px;
+  }
+  .content-24 p{
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -1414,9 +1640,28 @@ ul {
     display: block;
   }
   .sec-navbar ul li a{
-    font-size: 11px;
+    font-size: 9px;
+  }
+  .lo{
+    width: 8px;
+  }
+  .lav-ul-fot{
+    margin-right: -5px;
+    background-color: #fff;
+    width: 135px;
+  }
+  .lav-ul-fot li{
+    margin: 12px 3px !important;
+  }
+  .last-fot-p .img-h{
+    top: -25px;
+    right: 10px;
+    width: 50px;
   }
 }
+  .ghost-insted-oneee{
+    display: none;
+  }
 @media screen and (max-width: 1024px) {
   .search-bar{
     width: 370px;
@@ -1426,5 +1671,41 @@ ul {
   }
   .ul-imges-ghost-2{
     display: none;
+  }
+  .bad-card-one{
+    width: 100%;
+    height: 100%;
+  }
+  .bad-col-two{
+    width: 100% !important;
+  }
+  .bad-col-two .cards{
+    margin-right: 0px !important;
+  }
+  .bad-gutters-two{
+    width: 100%;
+    height: 100%;
+  }
+  .bad-p-two{
+    margin-top: 0px;
+  }
+  .bad-col-three{
+    width: 100% !important;
+  }
+  .bad-col-three .cards{
+    margin-right: 0px;
+  }
+  .bad-gutters-three{
+    width: 100%;
+    height: 100%;
+  }
+  .bad-p-three{
+    margin-top: 0px;
+  }
+  .ghost-insted{
+    display: none;
+  }
+  .ghost-insted-oneee{
+    display: block;
   }
 }
