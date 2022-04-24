@@ -7,6 +7,22 @@
 body{
   background-color: #FFFFFF;
 }
+
+::placeholder{
+  color: #323232 !important;
+  padding-right: 5px;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#F8F9FA, #B92728);
+  height: 180px;
+  border-radius: 6px;
+}
+
+
 .navbar{
   height: 72px;
 }
@@ -434,6 +450,14 @@ body{
   border-radius: 20px;
   padding: 8px 15px;
   color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-link-a:hover{
+  background: #fff;
+  transition: 0.3s;
+  color: #B92728;
+  border: 1px solid #B92728;
 }
 .today-sall-of{
   position: relative;
@@ -673,6 +697,14 @@ body{
   border-radius: 20px;
   padding: 8px 15px;
   color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-link-a-2:hover{
+  background: #fff;
+  transition: 0.3s;
+  color: #364B70;
+  border: 1px solid #364B70;
 }
 .box-1-of-ramadan-2 h5{
   font-weight: 700;
@@ -732,6 +764,19 @@ body{
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
+.super-ramadan-offers-4{
+  transition: 0.4s;
+}
+.super-ramadan-offers-4 .card:hover{
+  background-color: #B92728;
+  transition: 0.4s;
+}
+.super-ramadan-offers-4 .card:hover .link-super-last{
+  color: #fff ;
+  transition: 0.4s;
+}
+
+
 .super-ramadan-offers-4 .heading-r-o{
   font-weight: 700;
   font-size: 25px;
@@ -745,6 +790,14 @@ body{
   border-radius: 20px;
   padding: 8px 15px;
   color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-link-a-4:hover{
+  background: #fff;
+  color: #B92728;
+  transition: 0.3s;
+  border: 1px solid #B92728;
 }
 .box-1-of-ramadan-4 h5{
   font-weight: 700;
@@ -786,6 +839,14 @@ body{
   border-radius: 20px;
   padding: 8px 15px;
   color: #B92728;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-link-a-5:hover{
+  background: #B92728;
+  color: #fff;
+  transition: 0.3s;
+  border: 1px solid #fff;
 }
 .box-1-of-ramadan-5 h5{
   font-weight: 500;
@@ -824,6 +885,14 @@ body{
   border-radius: 20px;
   padding: 8px 15px;
   color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-link-a-66:hover{
+  background: #fff;
+  color: #364B70;
+  transition: 0.3s;
+  border: 1px solid #364B70;
 }
 .box-1-of-ramadan-6 h5{
   font-weight: 700;
@@ -869,6 +938,15 @@ body{
   border-radius: 20px;
   padding: 8px 15px;
   color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-link-a-7:hover{
+  background: #fff;
+  border: 1px solid #B92728;
+  color: #B92728;
+  transition: 0.3s;
+
 }
 .box-1-of-ramadan-7 h5{
   font-weight: 700;
@@ -1069,7 +1147,7 @@ ul {
   color: #B92728;
   text-transform: capitalize;
   margin-bottom: 35px;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
 }
 .footer-col ul li:not(:last-child) {
@@ -1189,8 +1267,8 @@ ul {
   position: relative;
 }
 .last-fot-p .img-h{
-  position: absolute;
-  top: -35px;
+  position: fixed;
+  bottom: 35px;
   right: 40px;
   width: 90px;
 }
@@ -1199,6 +1277,29 @@ ul {
   padding-bottom: 10px;
 }
 /* footer */
+.whats-app-icon{
+  position: fixed;
+  bottom: 30px;
+  left: 0px;
+}
+.Toup{
+  position: fixed;
+  bottom: 115px;
+  left: -40px !important;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+.Toup.show{
+  left: 25px !important;
+}
+.Toup img{
+  width: 40px;
+}
+.bubb-le-dis{
+  display: none;
+}
 /* start resbonsive */
 @media screen and (max-width: 480px) {
   .nav-mobile{
@@ -1477,6 +1578,7 @@ ul {
     /* margin-left: 40px; */
   }
   .last-fot-p .img-h{
+    position: absolute;
     top: -25px;
     right: 10px;
     width: 50px;
@@ -1500,6 +1602,10 @@ ul {
   }
 }
 @media screen and (max-width: 920px) {
+  .bubb-le-dis{
+    display: block;
+    margin-top: 30px;
+  }
 
   .nav-mobile{
     display: block;
@@ -1745,8 +1851,4 @@ ul {
     font-size: 12px !important;
   }
 
-}
-::placeholder{
-  color: #323232 !important;
-  padding-right: 5px;
 }
